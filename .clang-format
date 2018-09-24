@@ -1,0 +1,74 @@
+# Allow double brackets such as std::vector<std::vector<int>>.
+Standard: Cpp11
+
+SortIncludes: false
+
+# Indent 4 spaces at a time.
+IndentWidth: 4
+TabWidth: 4
+UseTab: ForIndentation
+
+# Keep lines under 150 columns long.
+ColumnLimit: 150
+
+
+# Indent case labels.
+IndentCaseLabels: true
+
+NamespaceIndentation: Inner
+FixNamespaceComments: true
+#CompactNamespaces: true
+
+IndentPPDirectives: AfterHash
+
+# Left-align pointers and references
+PointerAlignment: Left
+
+AllowAllParametersOfDeclarationOnNextLine: false
+
+AllowShortBlocksOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+
+# ANGLE likes to align things as much as possible.
+AlignAfterOpenBracket: Align
+AlignOperands: false
+AlignConsecutiveAssignments: false
+
+# Use 2 space negative offset for access modifiers
+AccessModifierOffset: -4
+
+# TODO(jmadill): Decide if we want this on. Doesn't have an "all or none" mode.
+AllowShortCaseLabelsOnASingleLine: false
+
+# Useful for spacing out functions in classes
+KeepEmptyLinesAtTheStartOfBlocks: true
+
+BinPackArguments: false
+BinPackParameters: false
+
+# Always break before braces
+BreakBeforeBraces: Custom
+BraceWrapping: {
+    AfterClass: 'false'
+    AfterControlStatement: 'false'
+    AfterEnum : 'false'
+    AfterFunction : 'false'
+    AfterNamespace : 'false'
+    AfterStruct : 'false'
+    AfterUnion : 'false'
+    BeforeCatch : 'true'
+    BeforeElse : 'true'
+    IndentBraces : 'false'
+}
+
+SpaceBeforeParens: ControlStatements
+SpaceBeforeAssignmentOperators: true
+SpaceInEmptyParentheses: false
+SpacesInParentheses: false
+SpaceAfterCStyleCast: true
+
+MaxEmptyLinesToKeep: 1
+AlwaysBreakTemplateDeclarations: true

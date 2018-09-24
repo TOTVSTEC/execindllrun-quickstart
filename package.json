@@ -1,0 +1,22 @@
+{
+  "name": "execindllrun-quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "clean": "rimraf ./target",
+    "build": "node ./build.js",
+    "rebuild": "npm run clean && npm run build"
+  },
+  "author": "Rogerio Ribeiro da Cruz <rogerio.ribeiro@totvs.com.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "cmake-cli": "0.0.1",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.2"
+  },
+  "generators": {
+    "windows": "Visual Studio 15 2017",
+    "linux": "Unix Makefiles"
+  }
+}
