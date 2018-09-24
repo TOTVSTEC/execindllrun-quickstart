@@ -27,6 +27,13 @@ ExeDLLRun3 | exec3.cpp
 ## Codigo Advpl
 
 No arquivo `/src/advpl/testDLL.prw` existe um exemplo com as chamadas para as dll's geradas.
+Para maiores informações, consultar a documentacao no TDN.
+
+- http://tdn.totvs.com/display/tec/ExecInDLLOpen
+- http://tdn.totvs.com/display/tec/ExecInDLLRun
+- http://tdn.totvs.com/display/tec/ExeDLLRun2
+- http://tdn.totvs.com/display/tec/ExeDLLRun3
+- http://tdn.totvs.com/display/tec/ExecInDLLClose
 
 ## Gerador utilizado pelo CMake
 
