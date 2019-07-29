@@ -11,9 +11,9 @@
   "author": "Rogerio Ribeiro da Cruz <rogerio.ribeiro@totvs.com.br>",
   "license": "MIT",
   "devDependencies": {
-    "cmake-cli": "0.0.1",
+    "cmake-cli": "0.0.3",
     "mkdirp": "^0.5.1",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.3"
   },
   "generators": {
     "windows": "Visual Studio 15 2017",
